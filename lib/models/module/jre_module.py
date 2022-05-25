@@ -128,7 +128,7 @@ class _JREModule(nn.Module):
         if self.use_weight:
             f = torch.matmul(self.att, f)
 
-        f_div_C = F.softmax(f, dim=-1)
+        f_div_C = F.softmax(f, dim=1)
 
         y = torch.matmul(f_div_C, g_x)
         y = y.permute(0, 2, 1).contiguous()
