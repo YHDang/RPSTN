@@ -46,11 +46,11 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. 
 ## Citation
 If you use our code or models in your research, please cite with:
 
-	@misc{dang2021relationbased,
+	@article{dang2021relationbased,
       title={Relation-Based Associative Joint Location for Human Pose Estimation in Videos}, 
-      author={Yonghao Dang and Jianqin Yin},
-      year={2021},
-      eprint={2107.03591},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      author={Yonghao Dang and Jianqin Yin and Shaojie Zhang},
+      year={2022},
+      journal   = {{IEEE} Trans. Image Process.},
+      volume    = {31},
+      pages     = {3973--3986},
 	}
